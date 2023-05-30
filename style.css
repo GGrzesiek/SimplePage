@@ -1,0 +1,303 @@
+body{
+	margin:0;
+	background-color:#ffffff;
+}
+#container{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height:1965px;
+	
+}
+.top{	
+width:1000px;
+background-color:#000000;
+min-height:120px;
+}
+#banner{
+	background-color:#000000;
+	min-height:50px;
+	color:#ffffff;
+}
+#pasek{ min-height:3px;
+background-color:#33ccff;
+}
+
+.banner-left{
+	float:left;
+	text-align:left;
+	width:260px;
+background-color:#000000;
+border-left:10px;
+font-size:30px;
+color:#ffffff;
+padding:20px;
+margin-top:17px;
+margin-bottom:15px;
+line-height:20px;
+}
+.banner-right ol li
+{	 display: inline-block;
+	justify-content:space-between;
+    height:20px;
+	padding:10px;
+	list-style-type:none;
+}
+#smol{
+	border-top:2px;
+padding:0px;
+color:#b5b0b0;
+font-size:14px;
+}
+.banner-right{
+	float:left;
+width:700px;
+ text-align:right;
+ display:flex;
+
+ word-spacing: normal;
+ flex-direction:row;
+margin-top:25px;
+justify-content:space-around;
+text-decoration:none;
+}
+
+
+#row a{
+color:#ffffff;
+text-decoration:none;
+
+}
+#servicetitle ol li
+{	 display: inline-block;
+	justify-content:space-between;
+    height:20px;
+	padding:10px;
+	list-style-type:none;
+}
+#row li:hover
+{ border: 2px #33ccff;
+  border-radius: 10px;
+    background-color: #33ccff;
+}
+
+.mid{
+	background-color:#ffffff;
+	clear:both;
+	min-height:1330px;
+}
+#title{ margin-top:60px;
+margin-bottom:50px;
+margin-left:20px;
+font-size:140px;
+text-align:left;
+line-height:110px;
+color:#272726;
+
+}
+
+
+#servicetitle{
+justify-content:center;
+color:#272726;
+
+}
+#servicetitle ol{
+	display:flex;
+	padding-left:0px;
+	justify-content:space-evenly;
+}
+.links li{
+	border:1px solid #d9d9d8;
+	min-height:300px;
+	width:190px;
+}
+#znaczek{
+	min-height:150px;
+	text-align:center;
+
+	align-items:center;
+	font-size:120px;
+}
+#servicemid{
+	font-size:30px;
+	min-height:50px;
+	display:flex;
+	text-align:center;
+	
+}
+
+.links li:hover
+{ border: 2px #33ccff;
+	color:#ffffff;
+    background-color: #33ccff;
+	text-align:center;
+}
+#servicebot<.links li:hover{ 
+	min-height:80px;
+	display:flex;
+	text-align:center;
+	color:#cbcdcb;
+}
+#servicebot{margin-top:10px;
+	display:flex;
+	text-align:center;
+}
+
+#team1{
+color:#d9d9d8;
+font-size:125px;
+text-align:center;
+}
+#team2{
+	justify-content:center;
+ align-items:baseline;
+color:#272726;
+}
+.teamm li{
+	max-width:200px;}
+#team2 ol{
+	display:flex;
+	padding-left:0px;
+	justify-content:space-evenly;
+}
+#team2 ol li
+{	 display: inline-block;
+	justify-content:space-evenly;
+    height:400px;
+	list-style-type:none;
+}
+.name{
+	font-size:18px;
+	text-align:center;
+	padding:10px;
+}
+.description{
+color:#9d9f9d;
+}
+.link{
+	text-align:right;
+	margin-top:20px;
+}
+.link a{text-decoration:none;
+	color:#33ccff;
+	
+}
+
+#footer{
+	width:1000px;
+	max-height:385px;
+	background-color:#41403e;
+}
+#footer ol{
+	display:flex;
+	padding-left:0px;
+	justify-content:space-evenly;
+}
+#footer ol li
+{	 display: inline-block;
+	justify-content:space-evenly;
+	list-style-type:none;
+}
+.blog{
+	width:200px;
+	height:455px;
+
+}
+#toplane{
+	margin:25px 0px 25px 0px;
+	color:#ffffff;
+}
+.posttitle{
+	color:#9d9f9d;
+	margin:20px 0px 10px 0px;
+}
+#Admin p2{
+	color:#727472;
+}
+.friday{color:#9d9f9d;
+font-size:12px;
+margin:10px 0px 10px 0px;
+}
+#Admin p3{
+	color:#9d9f9d;
+}
+#Admin a{text-decoration:none;
+	color:#33ccff;
+}
+#readmore{
+color:#33ccff;
+}	
+}
+.links2{
+	width:200px;
+	height:455px;
+}
+#roblox ol{
+	flex-direction:column;
+}
+#roblox ol li a{
+	text-decoration:none;
+	color:#33ccff;
+}
+#roblox hr{
+	color:#727472;
+}
+.tweety{
+	width:200px;
+	height:455px;
+	color:#9d9f9d;
+}
+#text1{margin-bottom:10px;
+}
+#text1 a{text-decoration:none;
+color:#33ccff}
+#text2 a{text-decoration:none;
+color:#33ccff}
+.kontakt{
+	width:200px;
+	height:455px;
+
+}
+input[type=text]
+{
+background-color:#323432;
+margin: 5px 0px 5px 0px;
+height:20px;
+width:200px;
+}
+#thicc{
+	height:100px;
+}
+input[type=submit]
+{
+	width:100px;
+	height:20px;
+	border: 2px #33ccff;
+	border-radius: 10px;
+    background-color: #33ccff;
+	color:#ffffff;
+}
+.finito{
+background-color:#353531;
+height:50px;
+
+}
+#lewo{
+	float:left;
+	width:470px;
+	color:#9d9f9d;
+	padding:15px;
+
+}
+#prawo{
+	float:left;
+	text-align:right;
+	width:470px;
+	color:#9d9f9d;
+	padding:15px;
+	
+}
+#xd
+{ clear:both;
+}
